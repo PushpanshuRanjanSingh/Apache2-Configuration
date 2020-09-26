@@ -76,7 +76,7 @@ nano index.html
 Default site setting location
 
 ```bash
-cd /etc/apache2/sites-available/
+cd /etc/apache2/conf-available/
 nano serve-cgi-bin.conf
 # serve-cgi-bin.con -> default configuration let's configure custom
 <IfModule mod_alias.c>
